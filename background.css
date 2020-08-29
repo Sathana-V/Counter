@@ -1,0 +1,181 @@
+#demo {
+    text-align: center;
+    margin-top: 0%;
+    border: 2px solid rgb(196, 218, 164);
+    background-color: hotpink;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#demo1 {
+    color: white;
+}
+
+.head {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-left: 75%;
+    float: left;
+    display: flex;
+}
+
+.addb {
+    padding: 10px 10px 10px 10px;
+    margin-left: 30%;
+    border-radius: 60px;
+    font-size: 30px;
+    font-weight: 900px;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    background-color: black;
+    color: white;
+    float: left;
+    display: flex;
+}
+
+.hedc {
+    padding: 10px 10px 10px 10px;
+    margin-left: 25%;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 500px;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    display: flex;
+}
+
+.delb {
+    padding: 10px 10px 10px 10px;
+    border-radius: 60px;
+    font-size: 30px;
+    font-weight: 900px;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    background-color: black;
+    color: white;
+    float: left;
+    display: flex;
+}
+
+.text {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900px;
+    border-radius: 20px;
+    margin-left: 0%;
+    width: 80px;
+    height: 40px;
+    float: left;
+    display: flex;
+}
+
+.color1 {
+    background-color: black;
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color5 {
+    background-color: rgb(94, 192, 216);
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color4 {
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color2 {
+    background-color: green;
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color3 {
+    background-color: fuchsia;
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+#imagealign {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0%;
+    margin-left: 72%;
+    float: left;
+    display: flex;
+}
+
+#colorbutton {
+    padding-top: 10px;
+    margin-left: 70%;
+    float: left;
+    display: flex;
+}
+
+#colorbutton2 {
+    padding-top: 10px;
+    margin-left: 70%;
+    float: left;
+    display: flex;
+}
+
+#colortext {
+    padding-top: 10px;
+    margin-left: 70%;
+    float: left;
+    display: flex;
+}
+
+#colortext2 {
+    padding-top: 10px;
+    margin-left: 70%;
+    float: left;
+    display: flex;
+}
+
+#image {
+    background-image: url('bg8.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+.color6 {
+    background-color: rgb(182, 100, 130);
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color7 {
+    background-color: peachpuff;
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color8 {
+    background-color: rgb(245, 37, 64);
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color9 {
+    background-color: grey;
+    border-radius: 40px;
+    padding: 15px 32px;
+}
+
+.color10 {
+    background-color: purple;
+    border-radius: 40px;
+    padding: 15px 32px;
+}

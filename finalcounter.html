@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)file:///D:/html/background/backweb.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" href="background.css">
+    <title>
+        background change
+    </title>
+    <script>
+        function myFunction2(x) {
+
+            if (x == 1) {
+                document.getElementById('image').style.backgroundImage = "url('bg4.jpg')";
+            } else
+            if (x == 2) {
+                document.getElementById('image').style.backgroundImage = "url('bg3.jpg')";
+            } else
+            if (x == 3) {
+                document.getElementById('image').style.backgroundImage = "url('bg2.jpg')";
+            } else if (x == 4) {
+                document.getElementById('image').style.backgroundImage = "url('bg5.jpg')";
+            } else if (x == 5) {
+                document.getElementById('image').style.backgroundImage = "url('bg6.jpg')";
+            } else
+            if (x == 6) {
+                document.getElementById('image').style.backgroundImage = "url('bg8.jpg')";
+            } else
+            if (x == 7) {
+                document.getElementById('image').style.backgroundImage = "url('cg9.jpg')";
+            } else
+            if (x == 8) {
+                document.getElementById('image').style.backgroundImage = "url('bg10.jpg')";
+            } else if (x == 9) {
+                document.getElementById('image').style.backgroundImage = "url('cg111.jpg')";
+            } else if (x == 10) {
+                document.getElementById('image').style.backgroundImage = "url('cg112.jpg')";
+            } else
+            if (x == 11) {
+                document.getElementById('image').style.backgroundImage = "url('cg13.jpg')";
+            } else if (x == 12) {
+                document.getElementById('image').style.backgroundImage = "url('cg14.jpg')";
+            } else if (x == 13) {
+                document.getElementById('image').style.backgroundImage = "url('cg15.jpg')";
+            }
+        }
+
+        function addFun() {
+            document.getElementById("input").value = parseInt(document.getElementById("input").value) + 1;
+        }
+
+        function delFun() {
+            document.getElementById("input").value = parseInt(document.getElementById("input").value) - 1;
+        }
+    </script>
+
+
+</head>
+
+<body id="image" style="background-image: url(&quot;bg3.jpg&quot;);">
+    <div id="demo1" style="color: rgb(245, 37, 64);">
+        <h3 id="demo" style="background-color: grey;">MAKE YOUR PAGE AS YOU WISH</h3>
+        <br>
+        <h3 class="head">HEADING COLOR</h3>
+        <div id="colorbutton">
+            <button class="color1" type="button" onclick="myFunction(1)" height="80px" width="80px"></button>
+            <button class="color2" type="button" onclick="myFunction(2)" height="80px" width="80px"></button>
+            <button class="color3" type="button" onclick="myFunction(3)" height="80px" width="80px"></button>
+            <button class="color4" type="button" onclick="myFunction(4)" height="80px" width="80px"></button>
+            <button class="color5" type="button" onclick="myFunction(5)" height="80px" width="80px"></button>
+        </div> <br>
+        <div id="colorbutton2">
+            <button class="color6" type="button" onclick="myFunction(6)" height="80px" width="80px"></button>
+            <button class="color7" type="button" onclick="myFunction(7)" height="80px" width="80px"></button>
+            <button class="color8" type="button" onclick="myFunction(8)" height="80px" width="80px"></button>
+            <button class="color9" type="button" onclick="myFunction(9)" height="80px" width="80px"></button>
+            <button class="color10" type="button" onclick="myFunction(10)" height="80px" width="80px"></button>
+
+        </div>
+        <h3 class="hedc">MINUS PLUS COUNTER</h3>
+        <h3 class="head">FONT COLOR</h3>
+        <div id="colortext2">
+            <button class="color1" type="button" onclick="myFunction3(1)" height="80px" width="80px"></button>
+            <button class="color2" type="button" onclick="myFunction3(2)" height="80px" width="80px"></button>
+            <button class="color3" type="button" onclick="myFunction3(3)" height="80px" width="80px"></button>
+            <button class="color4" type="button" onclick="myFunction3(4)" height="80px" width="80px"></button>
+
+            <button class="color5" type="button" onclick="myFunction3(5)" height="80px" width="80px"></button>
+        </div>
+        <div id="colortext">
+            <button class="color6" type="button" onclick="myFunction3(6)" height="80px" width="80px"></button>
+            <button class="color7" type="button" onclick="myFunction3(7)" height="80px" width="80px"></button>
+            <button class="color8" type="button" onclick="myFunction3(8)" height="80px" width="80px"></button>
+            <button class="color9" type="button" onclick="myFunction3(9)" height="80px" width="80px"></button>
+            <button class="color10" type="button" onclick="myFunction3(10)" height="80px" width="80px"></button>
+
+
+        </div>
+        <div>
+            <button class="addb" id="addbutton" value="add" onclick="addFun()">+</button>
+            <input class="text" id="input" type="text" value="0">
+            <button class="delb" id="delbutton" value="delete" onclick="delFun()">-</button>
+
+        </div>
+        <h3 class="head">BACKGROUND IMAGE</h3>
+
+    </div>
+
+    <div id="imagealign">
+
+        <input type="image" src="bg4.jpg" width="40px" height="50px" onclick="myFunction2(1)">&nbsp; &nbsp;
+        <input type="image" src="bg3.jpg" width="40px" height="50px" onclick="myFunction2(2)">&nbsp; &nbsp;
+        <input type="image" src="bg2.jpg" width="40px" height="50px" onclick="myFunction2(3)">&nbsp; &nbsp;
+        <input type="image" src="bg5.jpg" width="40px" height="50px" onclick="myFunction2(4)">&nbsp; &nbsp;
+        <input type="image" src="bg6.jpg" width="40px" height="50px" onclick="myFunction2(5)">&nbsp; &nbsp;
+        <input type="image" src="bg8.jpg" width="40px" height="50px" onclick="myFunction2(6)">&nbsp; &nbsp;
+        <br>
+    </div>
+    <br>
+    <div id="imagealign">
+        <br>
+        <input type="image" src="cg9.jpg" width="40px" height="50px" onclick="myFunction2(7)">&nbsp; &nbsp;
+        <input type="image" src="bg10.jpg" width="40px" height="50px" onclick="myFunction2(8)">&nbsp; &nbsp;
+        <input type="image" src="cg111.jpg" width="40px" height="50px" onclick="myFunction2(9)">&nbsp; &nbsp;
+        <input type="image" src="cg112.jpg" width="40px" height="50px" onclick="myFunction2(10)">&nbsp; &nbsp;
+        <input type="image" src="cg13.jpg" width="40px" height="50px" onclick="myFunction2(11)">&nbsp; &nbsp;
+        <input type="image" src="cg14.jpg" width="40px" height="50px" onclick="myFunction2(12)">&nbsp; &nbsp;
+
+    </div>
+
+
+    <script>
+        function myFunction(y) {
+            switch (y) {
+                case 1:
+                    document.getElementById('demo').style.backgroundColor = "black";
+                    break;
+                case 2:
+                    document.getElementById('demo').style.backgroundColor = "green";
+                    break;
+                case 3:
+                    document.getElementById('demo').style.backgroundColor = "fuchsia";
+                    break;
+                case 4:
+                    document.getElementById('demo').style.backgroundColor = "white";
+                    break;
+                case 5:
+                    document.getElementById('demo').style.backgroundColor = "rgb(94, 192, 216)";
+                    break;
+                case 6:
+                    document.getElementById('demo').style.backgroundColor = "rgb(182, 100, 130)";
+                    break;
+                case 7:
+                    document.getElementById('demo').style.backgroundColor = "peachpuff";
+                    break;
+                case 8:
+                    document.getElementById('demo').style.backgroundColor = "rgb(245, 37, 64)";
+                    break;
+                case 9:
+                    document.getElementById('demo').style.backgroundColor = "grey";
+                    break;
+                case 10:
+                    document.getElementById('demo').style.backgroundColor = "purple";
+                    break;
+            }
+        }
+
+        function myFunction3(i) {
+            switch (i) {
+                case 1:
+                    document.getElementById('demo1').style.color = "black";
+
+                    break;
+                case 2:
+                    document.getElementById('demo1').style.color = "green";
+
+                    break;
+                case 3:
+                    document.getElementById('demo1').style.color = "fuchsia";
+
+                    break;
+                case 4:
+                    document.getElementById('demo1').style.color = "white";
+
+                    break;
+                case 5:
+                    document.getElementById('demo1').style.color = "rgb(94, 192, 216)";
+
+                    break;
+                case 6:
+                    document.getElementById('demo1').style.color = "rgb(182, 100, 130)";
+
+                    break;
+                case 7:
+                    document.getElementById('demo1').style.color = "peachpuff";
+
+                    break;
+                case 8:
+                    document.getElementById('demo1').style.color = "rgb(245, 37, 64)";
+
+                    break;
+                case 9:
+                    document.getElementById('demo1').style.color = "grey";
+
+                    break;
+                case 10:
+                    document.getElementById('demo1').style.color = "purple";
+
+                    break;
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
